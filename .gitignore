@@ -1,8 +1,36 @@
+# Maven build output
+target/
+
 # Compiled class file
 *.class
 
-# Log file
+# Log files
 *.log
+logs/
+spring.log
+
+# Profile/local configuration
+application-local.properties
+application-local.yml
+application-*.yml
+.env
+*.key
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# macOS / Windows metadata
+.DS_Store
+Thumbs.db
+
+# Generic editor backups
+*~
+*.swp
+*.swo
 
 # BlueJ files
 *.ctxt
@@ -90,4 +118,3 @@ local.properties
 .classpath
 
 # End of https://www.gitignore.io/api/eclipse
-
